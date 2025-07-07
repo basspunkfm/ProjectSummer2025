@@ -1,0 +1,36 @@
+{
+    "input_vars": [
+        "time"
+    ],
+    "output_vars": [
+        "x_output"
+    ],
+    "assumptions": [
+        {
+            "constant": 0.0005,
+            "coefficients": {
+                "time": 1.0
+            }
+        },
+        {
+            "constant": 0.0,
+            "coefficients": {
+                "time": -1.0
+            }
+        }
+    ],
+    "guarantees": [
+        {
+            "constant": -5.0,
+            "coefficients": {
+                "x_output": -1.0
+            }
+        },
+        {
+            "constant": 10.0,
+            "coefficients": {
+                "x_output": 1.0
+            }
+        }
+    ]
+}
