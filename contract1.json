@@ -7,7 +7,7 @@
     ],
     "assumptions": [
         {
-            "constant": -0.0005,
+            "constant": -0.050050050050050046,
             "coefficients": {
                 "time": -1.0
             }
@@ -27,7 +27,7 @@
             }
         },
         {
-            "constant": 0.0024999999999999467,
+            "constant": 1.0,
             "coefficients": {
                 "time": 1.0
             }

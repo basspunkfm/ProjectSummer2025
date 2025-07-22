@@ -7,7 +7,7 @@
     ],
     "assumptions": [
         {
-            "constant": 0.0005,
+            "constant": 0.050050050050050046,
             "coefficients": {
                 "time": 1.0
             }
